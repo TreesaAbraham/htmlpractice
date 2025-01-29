@@ -1,4 +1,4 @@
-/* li {
+li {
     color: rgb(137, 85, 46);
     font-size: 20px;
     list-style-type:lower-greek;
@@ -40,7 +40,7 @@ body {
    
 }
 ul {
-    /*border-width: 4px;
+    border-width: 4px;
     border-style: dashed;
     border-color: brown; 
     border: 4px solid brown;
@@ -56,21 +56,11 @@ a[href*=".html"] {
     color: darkblue;
     text-transform:lowercase;
     text-decoration: none;
-}*/
+}
 
 
 
 /*cascade: html elements can inherit css properties that are applied to their parents*/
-div {
-    color: lightcoral;
-    border: 1px solide grey;
-    margin: 40px;
-}
-p{
-    border: inherit;
-    color: crimson;
-
-}
-p{
-    color: orange;
-}
+/*git add .*/
+/*git commit -m "add css file"*/
+/*git push origin main*/
