@@ -1,4 +1,4 @@
-li {
+/* li {
     color: rgb(137, 85, 46);
     font-size: 20px;
     list-style-type:lower-greek;
@@ -21,6 +21,19 @@ p {
     line-height: 30px;
     column-count: 3;
 }
+.error{
+    color: maroon;
+    font-size: 20px;
+}
+p.try {
+    color: goldenrod;
+}
+p.try.feedback {
+    color: rgb(2, 41, 2);
+}
+div p strong {
+    color: aliceblue
+}
 body {
     
     background-color: burlywood;
@@ -29,7 +42,7 @@ body {
 ul {
     /*border-width: 4px;
     border-style: dashed;
-    border-color: brown; */
+    border-color: brown; 
     border: 4px solid brown;
 }
 span {
@@ -38,4 +51,26 @@ span {
 link {
     color: rgb(4, 91, 20);
     
+}
+a[href*=".html"] {
+    color: darkblue;
+    text-transform:lowercase;
+    text-decoration: none;
+}*/
+
+
+
+/*cascade: html elements can inherit css properties that are applied to their parents*/
+div {
+    color: lightcoral;
+    border: 1px solide grey;
+    margin: 40px;
+}
+p{
+    border: inherit;
+    color: crimson;
+
+}
+p{
+    color: orange;
 }
